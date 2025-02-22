@@ -1,7 +1,13 @@
-const BASE_URL="http://127.0.0.1:5000/"
+const BASE_URL = "http://34.239.105.41/users/";
 
-export async function getAllUsers(params) {
-    const response = await fetch(BASE_URL+'users/');
+// Obtener todos los usuarios
+export async function getAllUsers() {
+    const response = await fetch(BASE_URL);
     return response.json();
 }
 
+// Buscar un usuario por nombre
+export async function getUserByName(name) {
+    const response = await fetch(`${BASE_URL}${name}`);
+    return response.json();
+}
