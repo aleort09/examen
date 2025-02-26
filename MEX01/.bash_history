@@ -13,3 +13,38 @@ git checkout -b main
 git add .
 git commit -m "Ver usuarios usando api"
 git push origin main
+git push origin main
+git remote -v
+git branch -r
+git pull
+git branch -r
+git bra
+git pull origin dev
+git branch
+git checkout dev
+code .
+git checkout qa
+code .
+git pull
+git pull origin qa
+git checkout main
+code .
+git checkout qa
+git checkout main
+git add .
+git commit -m "Buscador implementado"
+git push origin main
+git checkout qa
+code .
+git add .
+git checkout main
+git commit -m "cambios"
+git commit -m "cambios"
+git checkout main
+git checkout main
+git checkout main
+code .
+npm start
+git add .
+git commit -m "Soolucion"
+git push origin main
